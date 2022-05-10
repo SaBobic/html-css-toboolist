@@ -79,3 +79,35 @@ main{
     border-radius: 5px;
 }
 
+/* style list */
+
+ul {
+    list-style-type: none;
+  }
+
+li{
+    line-height: 40px;
+}
+
+.mark{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.check{
+    color: #6FC6B2;
+    border-color: #6FC6B2;
+}
+
+.cross{
+    color: #EC6B66;
+    border-color: #EC6B66;
+}
