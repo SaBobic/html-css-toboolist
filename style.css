@@ -16,6 +16,11 @@ h1{
     font-weight: 900;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
 /* utilities */
 
 .background-white{
@@ -33,10 +38,6 @@ main{
 
 .button-general{
     padding: 5px 8px;
-}
-
-.white-text{
-    color: #fff;
 }
 
 /* website header */
@@ -126,10 +127,6 @@ li{
     padding: 8px 12px;
     font-size: 10px;
     color: #fff;
-}
-
-.editorial{
-    background-color: #45ABEA;
 }
 
 .q1-goals{
