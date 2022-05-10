@@ -72,11 +72,13 @@ main{
     color: #C5CBD0;
     border: 1px solid #C5CBD0;
     border-radius: 5px;
+    font-size: 12px;
 }
 
 #add-task-button{
     border: 1px solid #47ADF1;
     border-radius: 5px;
+    font-size: 12px;
 }
 
 /* style list */
@@ -110,4 +112,36 @@ li{
 .cross{
     color: #EC6B66;
     border-color: #EC6B66;
+}
+
+.list-button{
+    border: 0;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: #fff;
+}
+
+#editorial{
+    background-color: #45ABEA;
+}
+
+#q1-goals{
+    background-color: #9C72E4;
+}
+
+#recruiting{
+    background-color: #64C0A9;
+}
+
+#mobile{
+    background-color: #F29E33;
+}
+
+#website{
+    background-color: #D863A1;
+}
+
+#sales{
+    background-color: #B0C926;
 }
