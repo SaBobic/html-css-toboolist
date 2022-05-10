@@ -69,9 +69,9 @@ header > img, h1{
     margin-bottom: 20px;
 }
 
-/* button header */
+/* a header */
 
-.add-button{
+.add-link{
     border-radius: 5px;
     font-size: 12px;
     padding: 5px 8px;
