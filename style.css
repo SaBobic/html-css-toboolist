@@ -21,6 +21,11 @@ a{
     text-decoration: none;
 }
 
+main{
+    width: 900px;
+    margin: 0 auto;
+}
+
 /* utilities */
 
 .background-white{
@@ -29,15 +34,6 @@ a{
 
 .background-blue{
     background-color: #47ADF1;
-}
-
-main{
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.button-general{
-    padding: 5px 8px;
 }
 
 /* website header */
@@ -75,17 +71,20 @@ header > img, h1{
 
 /* button header */
 
-.add-section-button{
-    color: #C5CBD0;
-    border: 1px solid #C5CBD0;
+.add-button{
     border-radius: 5px;
     font-size: 12px;
+    padding: 5px 8px;
+    border: 1px solid;
 }
 
-.add-task-button{
-    border: 1px solid #47ADF1;
-    border-radius: 5px;
-    font-size: 12px;
+.add-section{
+    color: #C5CBD0;
+    border-color: #C5CBD0;
+}
+
+.add-task{
+    border-color: #47ADF1;
 }
 
 /* style list */
@@ -97,6 +96,8 @@ ul {
 li{
     line-height: 40px;
 }
+
+/* style mark */
 
 .mark{
     display: inline-block;
@@ -121,7 +122,9 @@ li{
     border-color: #EC6B66;
 }
 
-.list-button{
+/* style label */
+
+.label{
     border: 0;
     border-radius: 12px;
     padding: 8px 12px;
